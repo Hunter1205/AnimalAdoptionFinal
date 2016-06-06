@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    android:gravity="center_vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="191dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/question_text_view"
+            android:textSize="24dp"
+            android:textAlignment="center"
+            android:layout_weight="0.25"
+            android:textColor="@color/colorBlack"
+            android:text="@string/category_cat" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="105dp"
+                android:layout_height="90dp"
+                android:id="@+id/catView1"
+                android:src="@drawable/cat"
+                android:layout_weight="0.25" />
+
+            <ImageView
+                android:layout_width="105dp"
+                android:layout_height="90dp"
+                android:id="@+id/catView2"
+                android:src="@drawable/petcat"
+                android:layout_weight="0.25" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:weightSum="1">
+
+            <Button
+                android:layout_width="105dp"
+                android:layout_height="70dp"
+                android:id="@+id/btnCat1"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"
+                android:text="Sally"
+                android:nestedScrollingEnabled="false" />
+
+            <Button
+                android:layout_width="105dp"
+                android:layout_height="70dp"
+                android:id="@+id/btnCat2"
+                android:textColor="@color/colorOrange"
+                android:textSize="15dp"
+                android:text="Misty" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="105dp"
+                android:layout_height="90dp"
+                android:id="@+id/catView3"
+                android:src="@drawable/thecat"
+                android:layout_weight="0.25" />
+
+            <ImageView
+                android:layout_width="105dp"
+                android:layout_height="90dp"
+                android:id="@+id/catView4"
+                android:src="@drawable/whitecat"
+                android:layout_weight="0.25" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:weightSum="1">
+
+            <Button
+                android:layout_width="105dp"
+                android:layout_height="70dp"
+                android:id="@+id/btnCat3"
+                android:textColor="@color/colorAccent"
+                android:textSize="15dp"
+                android:text="Sam" />
+
+            <Button
+                android:layout_width="105dp"
+                android:layout_height="70dp"
+                android:id="@+id/btnCat4"
+                android:textColor="@color/colorGreen"
+                android:textSize="15dp"
+                android:text="Lucy" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
